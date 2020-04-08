@@ -12,7 +12,7 @@ import java.util.Locale;
 
 @SpringBootApplication
 @MapperScan("com.atguigu.springnoot.mapper")
-public class SpringNoot04WebRestfulcrudApplication {
+public class SpringNoot04WebRestfulcrudApplication extends SpringBootServletInitializer{
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringNoot04WebRestfulcrudApplication.class, args);
