@@ -5,6 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.lang.Nullable;
 import org.springframework.web.servlet.View;
+import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 import org.springframework.web.servlet.ViewResolver;
 import tk.mybatis.spring.annotation.MapperScan;
 
